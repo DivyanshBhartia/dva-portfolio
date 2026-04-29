@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;800&display=swap');
 
 :root {
-    --bg-dark: #05070a;
-    --bg-card: rgba(15, 20, 28, 0.7);
-    --accent-blue: #00f2ff;
-    --accent-purple: #7000ff;
+    --bg-dark: #0a0515;
+    --bg-card: rgba(20, 10, 35, 0.7);
+    --accent-blue: #4f46e5;
+    --accent-purple: #d946ef;
+    --accent-pink: #ec4899;
     --text-primary: #ffffff;
-    --text-secondary: #94a3b8;
-    --glass-border: rgba(255, 255, 255, 0.1);
+    --text-secondary: #c4b5fd;
+    --glass-border: rgba(196, 181, 253, 0.15);
     --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -52,8 +53,9 @@ section {
     height: 100%;
     z-index: -1;
     background: 
-        radial-gradient(circle at 0% 0%, rgba(112, 0, 255, 0.15) 0%, transparent 50%),
-        radial-gradient(circle at 100% 100%, rgba(0, 242, 255, 0.15) 0%, transparent 50%);
+        radial-gradient(circle at 0% 0%, rgba(217, 70, 239, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(79, 70, 229, 0.2) 0%, transparent 50%),
+        radial-gradient(circle at 50% 50%, rgba(236, 72, 153, 0.1) 0%, transparent 60%);
 }
 
 .grid-overlay {
@@ -250,7 +252,7 @@ nav {
 }
 
 .excel-preview {
-    background: linear-gradient(135deg, #1d6f42 0%, #0a2d1a 100%);
+    background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%);
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -272,7 +274,7 @@ nav {
 }
 
 .tableau-preview {
-    background: linear-gradient(135deg, #e97627 0%, #703310 100%);
+    background: linear-gradient(135deg, #d946ef 0%, #a855f7 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -325,7 +327,7 @@ nav {
     left: 0;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle at top right, rgba(0, 242, 255, 0.05), transparent 60%);
+    background: radial-gradient(circle at top right, rgba(217, 70, 239, 0.08), transparent 60%);
     z-index: -1;
 }
 
